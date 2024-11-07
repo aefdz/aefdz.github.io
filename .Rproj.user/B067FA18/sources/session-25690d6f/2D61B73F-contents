@@ -1,0 +1,87 @@
+---
+# Display name
+title: Antonio Elías
+
+# Username (this should match the folder name)
+authors:
+- admin
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position
+role: Assistant Professor
+
+# Organizations/Affiliations
+organizations:
+ - name: Deparment of Mathematics, Statistics and Operational Research. Universidad de Málaga.
+   url: "https://www.uma.es/"
+ - name: OASYS Group
+   url: "http://oasys.uma.es/"
+
+
+# Short bio (displayed in user profile at end of posts)
+bio: Statistician and application-oriented researcher. Open and collaborative science as a way to contribute to the society.
+
+interests:
+- Complex data analysis
+- Anomaly detection
+- Functional data 
+- Time Series
+- Spatio-temporal data
+- Visualization
+
+education:
+  courses:
+  - course: PhD in Statistics
+    institution: Universidad Carlos III de Madrid
+    year: 2020
+  - course: MSc in Quantitative Methods
+#    institution: Universidad Carlos III de Madrid
+#    year: 2016
+  - course: BSc in Economics
+#    institution: Universidad Carlos III de Madrid
+#    year: 2012
+
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+social:
+# - icon: envelope
+#   icon_pack: fas
+#   link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.es/citations?user=nx1VBZEAAAAJ&hl=es
+- icon: orcid
+  icon_pack: ai
+  link: https://orcid.org/0000-0002-3078-549X
+- icon: github
+  icon_pack: fab
+  link: https://github.com/aefdz
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/aelias_fdz
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+- icon: cv
+  icon_pack: ai
+  link: files/cv.pdf
+
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ""
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
+#user_groups:
+#- Researchers
+#- Visitors
+---
+
+I am Assistant Professor in the Department of Mathematics, Statistics and Operational Research at [Universidad de Málaga](https://www.uma.es/).
+
+Before that, I was a Postdoctoral Researcher at [OASYS group](https://sites.google.com/view/groupoasys/home). In 2020, I got my PhD from the [Department of Statistics](https://www.uc3m.es/ss/Satellite/UC3MInstitucional/es/PortadaMiniSiteA/1371229065435/Departamento_de_Estadistica) at [Universidad Carlos III de Madrid](https://uc3m.es/) with the dissertation "Depth-based methods for Functional Data Analysis". 
+During my doctoral period, I had the pleasure to be a visiting researcher at [Mox Laboratory](https://mox.polimi.it/) of the [Politecnico di Milano](https://www.polimi.it/en/) and at the [College of Business and Economics](https://www.cbe.anu.edu.au/) of the [Australian National University](https://www.anu.edu.au/).
+
+I strongly believe in the need to create bridges between theoretical statistical research and the great challenges of today's society.

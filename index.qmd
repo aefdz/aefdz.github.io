@@ -1,0 +1,34 @@
+---
+title: "Antonio Elías, PhD"
+pagetitle: "Antonio Elías, PhD"
+subtitle: "Associate Professor at University of Málaga"
+#image: static/img/curves.png
+
+about:
+  id: hero-heading
+  template: solana
+  links:
+       - text: "{{< ai google-scholar >}}" 
+         href: https://scholar.google.es/citations?user=nx1VBZEAAAAJ&hl=es
+       - text: "{{< ai orcid >}}" 
+         href: https://orcid.org/0000-0002-3078-549X
+       - icon: github
+         href: https://github.com/aefdz
+       - icon: linkedin
+         href: https://www.linkedin.com/in/antonio-el%C3%ADas-fern%C3%A1ndez-656ab495/
+       - icon: envelope
+         href: "mailto:mail.aelias@uma.es"
+         
+header-includes: >
+        <link rel="stylesheet" href="css/index.css">
+resources:
+       - css/index.css
+---
+
+::: {#hero-heading}
+
+I am Assistant Professor in the Department of Mathematics, Statistics and Operational Research at [Universidad de Málaga](https://www.uma.es/). I strongly believe in the need to create bridges between theoretical statistical research and the great challenges of today's society.
+
+[Learn more about me &rarr;](/about){.about-links .subtitle}
+
+:::
