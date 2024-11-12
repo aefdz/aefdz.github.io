@@ -1,0 +1,68 @@
+---
+title: "On projection methods for functional time series forecasting"
+date: 2022-05-01
+author: 
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: Universidad de Málaga, Málaga, Spain
+  - name: Raúl Jiménez
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+  - name: Hanlin Shang
+    url: https://researchers.mq.edu.au/en/persons/hanlin-shang
+    orcid: 0000-0003-1769-6430
+    affiliation: Macquarie University, Sidney, Australia
+categories:
+  - forecasting
+  - functional time series
+  - nearest neighbors
+  - depth measures
+  - electricity demand
+  - NOx emissions
+pub-info:
+  reference: >-
+    <strong>Antonio Elías</strong>, Raúl Jiménez and Hanlin Shang (2022), "On projection methods for functional time series forecasting", <em>Journal of Multivariate Statistics</em> , doi: <a href="https://doi.org/10.1016/j.jmva.2021.104890"><code>10.1016/j.jmva.2021.104890</code></a>
+  links:
+    - name: Final version
+      url: https://www.sciencedirect.com/science/article/pii/S0047259X21001688
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/aefdz/nnFTS
+      icon: fa-brands fa-github
+  doi: 2021.104890
+haiku:
+  - Automatic forecasting method
+---
+
+## Important links
+
+-   [Article Open Access](https://www.sciencedirect.com/science/article/pii/S0047259X21001688)
+-   [GitHub repository](https://github.com/aefdz/nnFTS)
+
+## Abstract
+
+Two nonparametric methods are presented for forecasting functional time series (FTS). The FTS we observe is a curve at a discrete-time point. We address both one-step-ahead forecasting and dynamic updating. Dynamic updating is a forward prediction of the unobserved segment of the most recent curve. Among the two proposed methods, the first one is a straightforward adaptation to FTS of the k-nearest neighbors methods for univariate time series forecasting. The second one is based on a selection of curves, termed the curve envelope, that aims to be representative in shape and magnitude of the most recent functional observation, either a whole curve or the observed part of a partially observed curve. In a similar fashion to k-nearest neighbors and other projection methods successfully used for time series forecasting, we “project” the k-nearest neighbors and the curves in the envelope for forecasting. In doing so, we keep track of the next period evolution of the curves. The methods are applied to simulated data, daily electricity demand, and NOx emissions and provide competitive results with and often superior to several benchmark predictions. The approach offers a model-free alternative to statistical methods based on FTS modeling to study the cyclic or seasonal behavior of many FTS.
+
+## Important figures
+
+![Figure 2: Forecasting exercise with envelopes](fig1.jpg)
+
+![Figure 4: Description of the set of curves used in the envelopes.](fig2.jpg)
+
+## Citation
+
+``` bibtex
+@article{ELIAS_JMVA_2022,
+title = {On projection methods for functional time series forecasting},
+journal = {Journal of Multivariate Analysis},
+volume = {189},
+pages = {104890},
+year = {2022},
+issn = {0047-259X},
+doi = {https://doi.org/10.1016/j.jmva.2021.104890},
+url = {https://www.sciencedirect.com/science/article/pii/S0047259X21001688},
+author = {Antonio Elías and Raúl Jiménez and Han Lin Shang},
+keywords = {Forecasting, Functional depth, Functional nonparametric, Functional time series, Nearest neighbors},
+abstract = {Two nonparametric methods are presented for forecasting functional time series (FTS). The FTS we observe is a curve at a discrete-time point. We address both one-step-ahead forecasting and dynamic updating. Dynamic updating is a forward prediction of the unobserved segment of the most recent curve. Among the two proposed methods, the first one is a straightforward adaptation to FTS of the k-nearest neighbors methods for univariate time series forecasting. The second one is based on a selection of curves, termed the curve envelope, that aims to be representative in shape and magnitude of the most recent functional observation, either a whole curve or the observed part of a partially observed curve. In a similar fashion to k-nearest neighbors and other projection methods successfully used for time series forecasting, we “project” the k-nearest neighbors and the curves in the envelope for forecasting. In doing so, we keep track of the next period evolution of the curves. The methods are applied to simulated data, daily electricity demand, and NOx emissions and provide competitive results with and often superior to several benchmark predictions. The approach offers a model-free alternative to statistical methods based on FTS modeling to study the cyclic or seasonal behavior of many FTS.}
+}
+```

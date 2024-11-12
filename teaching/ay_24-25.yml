@@ -1,0 +1,39 @@
+- title: Inferencia Estadística
+  description: "Grado en Matemáticas"
+  university: Facultad de Ciencias, Universidad de Málaga
+  number: 
+  url: 
+  logo: 
+  semester: 
+  - name: Segundo Cuatrimestre
+    url: 
+
+- title: Modelos Estadísticos y Simulación
+  description: "Grado en Informática"
+  university: Facultad de Informática, Universidad de Málaga
+  number: 
+  url: 
+  logo: 
+  semester: 
+  - name: Segundo Cuatrimestre
+    url: 
+    
+- title: Métodos Estadísticos Avanzados para la Criminología
+  description: "Grado en Criminología"
+  university: Universidad de Málaga
+  number: 
+  url: 
+  logo: 
+  semester: 
+  - name: Primer Cuatrimestre
+    url: 
+
+- title: Trabajo Final de Grado
+  description: ""
+  university: Universidad de Málaga
+  number: 
+  url: 
+  logo: 
+  semester: 
+  - name: Segundo Cuatrimestre
+    url: 

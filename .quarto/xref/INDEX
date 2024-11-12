@@ -16,5 +16,17 @@
   },
   "about/index.qmd": {
     "index.html": "108f89ad"
+  },
+  "research/articles/article1/index.qmd": {
+    "index.html": "04f92282"
+  },
+  "research/articles/article1 - Copy/index.qmd": {
+    "index.html": "27eadcb6"
+  },
+  "research/articles/article1 - Copy (2)/index.qmd": {
+    "index.html": "64013558"
+  },
+  "research/articles/JMVA2022/index.qmd": {
+    "index.html": "b3522876"
   }
 }

@@ -11,20 +11,69 @@
     "href": "index.html",
     "title": "Antonio Elías, PhD",
     "section": "",
-    "text": "I am Assistant Professor in the Department of Mathematics, Statistics and Operational Research at Universidad de Málaga. I strongly believe in the need to create bridges between theoretical statistical research and the great challenges of today’s society.\nLearn more about me →"
+    "text": "I am Associate Professor in the Department of Statistics and Operational Research at Universidad de Málaga. I strongly believe in the potential of Statistics to deal with the great challenges of today’s society. This belief drives my commitment to bridging the gap between theoretical research and real-world problems.\nLearn more about me →"
+  },
+  {
+    "objectID": "research/articles/JMVA2022/index.html",
+    "href": "research/articles/JMVA2022/index.html",
+    "title": "On projection methods for functional time series forecasting",
+    "section": "",
+    "text": "Article Open Access\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/JMVA2022/index.html#important-links",
+    "href": "research/articles/JMVA2022/index.html#important-links",
+    "title": "On projection methods for functional time series forecasting",
+    "section": "",
+    "text": "Article Open Access\nGitHub repository"
+  },
+  {
+    "objectID": "research/articles/JMVA2022/index.html#abstract",
+    "href": "research/articles/JMVA2022/index.html#abstract",
+    "title": "On projection methods for functional time series forecasting",
+    "section": "Abstract",
+    "text": "Abstract\nTwo nonparametric methods are presented for forecasting functional time series (FTS). The FTS we observe is a curve at a discrete-time point. We address both one-step-ahead forecasting and dynamic updating. Dynamic updating is a forward prediction of the unobserved segment of the most recent curve. Among the two proposed methods, the first one is a straightforward adaptation to FTS of the k-nearest neighbors methods for univariate time series forecasting. The second one is based on a selection of curves, termed the curve envelope, that aims to be representative in shape and magnitude of the most recent functional observation, either a whole curve or the observed part of a partially observed curve. In a similar fashion to k-nearest neighbors and other projection methods successfully used for time series forecasting, we “project” the k-nearest neighbors and the curves in the envelope for forecasting. In doing so, we keep track of the next period evolution of the curves. The methods are applied to simulated data, daily electricity demand, and NOx emissions and provide competitive results with and often superior to several benchmark predictions. The approach offers a model-free alternative to statistical methods based on FTS modeling to study the cyclic or seasonal behavior of many FTS."
+  },
+  {
+    "objectID": "research/articles/JMVA2022/index.html#important-figures",
+    "href": "research/articles/JMVA2022/index.html#important-figures",
+    "title": "On projection methods for functional time series forecasting",
+    "section": "Important figures",
+    "text": "Important figures\n\n\n\nFigure 2: Forecasting exercise with envelopes\n\n\n\n\n\nFigure 4: Description of the set of curves used in the envelopes."
+  },
+  {
+    "objectID": "research/articles/JMVA2022/index.html#citation",
+    "href": "research/articles/JMVA2022/index.html#citation",
+    "title": "On projection methods for functional time series forecasting",
+    "section": "Citation",
+    "text": "Citation\n@article{ELIAS_JMVA_2022,\ntitle = {On projection methods for functional time series forecasting},\njournal = {Journal of Multivariate Analysis},\nvolume = {189},\npages = {104890},\nyear = {2022},\nissn = {0047-259X},\ndoi = {https://doi.org/10.1016/j.jmva.2021.104890},\nurl = {https://www.sciencedirect.com/science/article/pii/S0047259X21001688},\nauthor = {Antonio Elías and Raúl Jiménez and Han Lin Shang},\nkeywords = {Forecasting, Functional depth, Functional nonparametric, Functional time series, Nearest neighbors},\nabstract = {Two nonparametric methods are presented for forecasting functional time series (FTS). The FTS we observe is a curve at a discrete-time point. We address both one-step-ahead forecasting and dynamic updating. Dynamic updating is a forward prediction of the unobserved segment of the most recent curve. Among the two proposed methods, the first one is a straightforward adaptation to FTS of the k-nearest neighbors methods for univariate time series forecasting. The second one is based on a selection of curves, termed the curve envelope, that aims to be representative in shape and magnitude of the most recent functional observation, either a whole curve or the observed part of a partially observed curve. In a similar fashion to k-nearest neighbors and other projection methods successfully used for time series forecasting, we “project” the k-nearest neighbors and the curves in the envelope for forecasting. In doing so, we keep track of the next period evolution of the curves. The methods are applied to simulated data, daily electricity demand, and NOx emissions and provide competitive results with and often superior to several benchmark predictions. The approach offers a model-free alternative to statistical methods based on FTS modeling to study the cyclic or seasonal behavior of many FTS.}\n}"
   },
   {
     "objectID": "research/index.html",
     "href": "research/index.html",
-    "title": "Articles and Code",
+    "title": "Research page under construction, see Google Scholar!",
     "section": "",
-    "text": "Articles and Code\nSite under construction!"
+    "text": "Antonio Elías, Raúl Jiménez and Hanlin Shang (2022), \"On projection methods for functional time series forecasting\", Journal of Multivariate Statistics , doi: 10.1016/j.jmva.2021.104890\n            \n            \n                    \n                            forecasting\n                        \n                    \n                            functional time series\n                        \n                    \n                            nearest neighbors\n                        \n                    \n                            depth measures\n                        \n                    \n                            electricity demand\n                        \n                    \n                            NOx emissions\n                        \n            \n            \n                Automatic forecasting method\n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                \n            \n        \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "research/index.html#journal-articles",
+    "href": "research/index.html#journal-articles",
+    "title": "Research page under construction, see Google Scholar!",
+    "section": "",
+    "text": "Antonio Elías, Raúl Jiménez and Hanlin Shang (2022), \"On projection methods for functional time series forecasting\", Journal of Multivariate Statistics , doi: 10.1016/j.jmva.2021.104890\n            \n            \n                    \n                            forecasting\n                        \n                    \n                            functional time series\n                        \n                    \n                            nearest neighbors\n                        \n                    \n                            depth measures\n                        \n                    \n                            electricity demand\n                        \n                    \n                            NOx emissions\n                        \n            \n            \n                Automatic forecasting method\n            \n            \n                \n                    \n                        \n                             Full details »\n                        \n                    \n                    \n                        \n                             Final version\n                        \n                    \n                    \n                        \n                             Code\n                        \n                    \n                \n            \n        \n\n\n\nNo matching items"
   },
   {
     "objectID": "teaching/index.html",
     "href": "teaching/index.html",
-    "title": "Teaching materials",
+    "title": "Teaching page under construction, see Campus Virtual!",
     "section": "",
-    "text": "Teaching materials\nSite under construction!"
+    "text": "Inferencia Estadística \n            \n            \n                 | \n                Facultad de Ciencias, Universidad de Málaga\n            \n            Grado en Matemáticas\n            \n                 Segundo Cuatrimestre\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Modelos Estadísticos y Simulación \n            \n            \n                 | \n                Facultad de Informática, Universidad de Málaga\n            \n            Grado en Informática\n            \n                 Segundo Cuatrimestre\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Métodos Estadísticos Avanzados para la Criminología \n            \n            \n                 | \n                Universidad de Málaga\n            \n            Grado en Criminología\n            \n                 Primer Cuatrimestre\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Trabajo Final de Grado \n            \n            \n                 | \n                Universidad de Málaga\n            \n            \n            \n                 Segundo Cuatrimestre\n            \n        \n    \n\n\nNo matching items"
+  },
+  {
+    "objectID": "teaching/index.html#section",
+    "href": "teaching/index.html#section",
+    "title": "Teaching page under construction, see Campus Virtual!",
+    "section": "",
+    "text": "Inferencia Estadística \n            \n            \n                 | \n                Facultad de Ciencias, Universidad de Málaga\n            \n            Grado en Matemáticas\n            \n                 Segundo Cuatrimestre\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Modelos Estadísticos y Simulación \n            \n            \n                 | \n                Facultad de Informática, Universidad de Málaga\n            \n            Grado en Informática\n            \n                 Segundo Cuatrimestre\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Métodos Estadísticos Avanzados para la Criminología \n            \n            \n                 | \n                Universidad de Málaga\n            \n            Grado en Criminología\n            \n                 Primer Cuatrimestre\n            \n        \n    \n    \n        \n            \n        \n        \n            \n                Trabajo Final de Grado \n            \n            \n                 | \n                Universidad de Málaga\n            \n            \n            \n                 Segundo Cuatrimestre\n            \n        \n    \n\n\nNo matching items"
   }
 ]

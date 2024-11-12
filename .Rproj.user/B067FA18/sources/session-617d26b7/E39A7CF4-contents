@@ -1,0 +1,18 @@
+---
+  title: "Teaching"
+  listing:
+    - id: ay_24-25
+      contents: ay_24-25.yml
+      sort: "date desc"
+      template: ../html/teaching/listing.ejs
+  title-block-banner: "#ffffff"
+  page-layout: full
+  toc: true
+  toc-location: right
+  toc-title: Academic year
+---
+
+## 2024–25
+
+:::{#ay_24-25}
+:::
