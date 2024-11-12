@@ -1,7 +1,7 @@
 ---
 title: "Antonio Elías, PhD"
 pagetitle: "Antonio Elías, PhD"
-subtitle: "Associate Professor at University of Málaga"
+subtitle: "Assistant Professor at University of Málaga"
 #image: static/img/curves.png
 
 about:
@@ -26,7 +26,7 @@ resources:
 ---
 
 ::: {#hero-heading}
-I am Associate Professor in the Department of Statistics and Operational Research at [Universidad de Málaga](https://www.uma.es/). 
+I am Assistant Professor in the Department of Statistics and Operational Research at [Universidad de Málaga](https://www.uma.es/). 
 I strongly believe in the potential of Statistics to deal with the great challenges of today's society. This belief drives my commitment to bridging the gap between theoretical research and real-world problems.
 
 [Learn more about me →](/about){.about-links .subtitle}

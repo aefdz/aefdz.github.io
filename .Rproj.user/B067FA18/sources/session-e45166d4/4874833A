@@ -1,14 +1,14 @@
 {
-    "id": "2D7A5EA7",
-    "path": "~/GitHub/aewebsite/index.qmd",
-    "project_path": "index.qmd",
+    "id": "4874833A",
+    "path": "~/GitHub/aewebsite/teaching/index.qmd",
+    "project_path": "teaching/index.qmd",
     "type": "quarto_markdown",
-    "hash": "3279334542",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1731412544748.0,
+    "created": 1731412016238.0,
     "source_on_save": false,
-    "relative_order": 4,
+    "relative_order": 1,
     "properties": {
         "rmdVisualMode": "false",
         "rmdVisualWrapConfigured": "true",
@@ -16,17 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "2:474.6666564941406",
-        "docOutlineSize": "150",
-        "cursorPosition": "28,131",
-        "scrollLine": "19"
+        "cursorPosition": "1,63",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "2:0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1731413260,
+    "lastKnownWriteTime": 1731412270,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1731413260057,
+    "last_content_update": 1731412270146,
     "read_only": false,
     "read_only_alternatives": []
 }
