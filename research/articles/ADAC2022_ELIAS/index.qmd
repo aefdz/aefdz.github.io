@@ -1,0 +1,71 @@
+---
+title: "Localization processes for functional data analysis"
+date: 2022-08-19
+author: 
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: Universidad de Málaga, Málaga, Spain
+  - name: Raúl Jiménez
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+  - name: Joe Yukich
+    url: https://scholar.google.com/citations?user=i4khdjkAAAAJ&hl=es
+    affiliation: Lehigh University, Pensilvania, United States
+categories:
+  - prediction
+  - functional data
+  - nearest neighbors
+  - classification
+  - outlier detection
+pub-info:
+  reference: >-
+    <strong>Antonio Elías</strong>, Raúl Jiménez and Joe YUkich (2023), "Localization processes for functional data analysis", <em>Advances in Data Analysis and Classification</em> , doi: <a href="https://doi.org/10.1007/s11634-022-00512-8"><code>10.1007/s11634-022-00512-8</code></a>
+  links:
+    - name: Final version
+      url: https://link.springer.com/article/10.1007/s11634-022-00512-8
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/aefdz/localFDA
+      icon: fa-brands fa-github
+  doi: 10.1007/s11634-022-00512-8
+haiku:
+  - Functional Nearest Neighbors
+---
+
+## Important links
+
+-   [ArXiv Preprint](https://arxiv.org/abs/2007.16059)
+-   [R-package CRAN](https://cran.r-project.org/web/packages/localFDA/index.html)
+-   [GitHub repository](https://github.com/aefdz/localFDA)
+
+## Abstract
+
+We propose an alternative to k-nearest neighbors for functional data whereby the approximating neighboring curves are piecewise functions built from a functional sample. Using a locally defined distance function that satisfies stabilization criteria, we establish pointwise and global approximation results in function spaces when the number of data curves is large. We exploit this feature to develop the asymptotic theory when a finite number of curves is observed at time-points given by an i.i.d. sample whose cardinality increases up to infinity. We use these results to investigate the problem of estimating unobserved segments of a partially observed functional data sample as well as to study the problem of functional classification and outlier detection. For such problems our methods are competitive with and sometimes superior to benchmark predictions in the field. The R package localFDA provides routines for computing the localization processes and the estimators proposed in this article.
+
+## Important figures
+
+![Figure 5: Probailities estimation](fig1.png)
+
+![Figure 5: Outputs from the outlier detection methods under consideration. All the methods detect Okinawa. Outliergram and localization distance boxplots agree with respect to Fukui and Kochi. The localization distances are the only ones able to detect Aomori as an extreme outlier and the only ones indicating a certain atypicity of Tokyo. For a few values of k, the localization distances corresponding to Nagano, Shiga and Kanagawa fell above (but close to) the default whiskers.](fig2.png)
+
+## Citation
+
+``` bibtex
+@Article{ElíasADAC2023,
+author={El{\'i}as, Antonio
+and Jim{\'e}nez, Ra{\'u}l
+and Yukich, J. E.},
+title={Localization processes for functional data analysis},
+journal={Advances in Data Analysis and Classification},
+year={2023},
+month={Jun},
+day={01},
+volume={17},
+number={2},
+pages={485-517},
+abstract={We propose an alternative to k-nearest neighbors for functional data whereby the approximating neighboring curves are piecewise functions built from a functional sample. Using a locally defined distance function that satisfies stabilization criteria, we establish pointwise and global approximation results in function spaces when the number of data curves is large. We exploit this feature to develop the asymptotic theory when a finite number of curves is observed at time-points given by an i.i.d. sample whose cardinality increases up to infinity. We use these results to investigate the problem of estimating unobserved segments of a partially observed functional data sample as well as to study the problem of functional classification and outlier detection. For such problems our methods are competitive with and sometimes superior to benchmark predictions in the field. The R package localFDA provides routines for computing the localization processes and the estimators proposed in this article.},
+issn={1862-5355},
+doi={10.1007/s11634-022-00512-8},
+url={https://doi.org/10.1007/s11634-022-00512-8}
+}
+```

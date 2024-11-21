@@ -1,0 +1,65 @@
+---
+title: "Mind the gender gap: COVID-19 lockdown effects on gender differences in preprint submissions"
+date: 2022-03-25
+author: 
+  - name: Iñaki Úcar
+    url: https://www.enchufa2.es/acerca_de/inaki
+    orcid: 0000-0001-6403-5550
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+  - name: Margarita Torre
+    url: https://margatorre.com/
+    orcid: 0000-0002-1051-9717
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: Universidad de Málaga, Málaga, Spain
+categories:
+  - Generalized Linear Models
+  - COVID
+pub-info:
+  reference: >- 
+    Iñaki Úcar, Margarita Torre, <strong>Antonio Elías</strong> (2022), "Mind the gender gap: COVID-19 lockdown effects on gender differences in preprint submissions", <em>Plos one</em> , doi: <a href="https://doi.org/10.1371/journal.pone.0264265"><code>10.1371/journal.pone.0264265</code></a>
+  links:
+    - name: Final version
+      url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264265
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/CONCIERGE-CM-UC3M/COVID19-gender-gap
+      icon: fa-brands fa-github
+  doi: 10.1371/journal.pone.0264265
+haiku:
+  - Lockdown impacts on the research productivity
+---
+
+## Important links
+
+-   [Article Open Access](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0264265#sec002)
+-   [GitHub repository](https://github.com/CONCIERGE-CM-UC3M/COVID19-gender-gap)
+
+## Abstract
+
+The gender gap is a well-known problem in academia and, despite its gradual narrowing, recent estimations indicate that it will persist for decades. Short-term descriptive studies suggest that this gap may have actually worsened during the months of confinement following the start of the COVID-19 pandemic in 2020. In this work, we evaluate the impact of the COVID-19 lockdown on female and male academics’ research productivity using preprint drop-off data. We examine a total of 307,902 unique research articles deposited in 5 major preprint repositories during the period between January and May each year from 2017 to 2020. We find that the proportion of female authors in online repositories steadily increased over time; however, the trend reversed during the confinement and gender parity worsened in two respects. First, the proportion of male authors in preprints increased significantly during lockdown. Second, the proportion of male authors in COVID-19-related articles was significantly higher than that of women. Overall, our results imply that the gender gap in academia suffered an approximately 1-year setback during the strict lockdown months of 2020, and COVID-related research areas suffered an additional 1.5-year setback.
+
+## Important figures
+
+![Figure 1: Numberof submissions per month](fig1.png)
+
+![Figure 4: Proportion of male authors per month.](fig2.png)
+
+## Citation
+
+``` bibtex
+@article{10.1371/journal.pone.0264265,
+    doi = {10.1371/journal.pone.0264265},
+    author = {Ucar, Iñaki AND Torre, Margarita AND Elías, Antonio},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {Mind the gender gap: COVID-19 lockdown effects on gender differences in preprint submissions},
+    year = {2022},
+    month = {03},
+    volume = {17},
+    url = {https://doi.org/10.1371/journal.pone.0264265},
+    pages = {1-13},
+    number = {3}}
+```

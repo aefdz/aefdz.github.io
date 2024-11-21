@@ -1,0 +1,73 @@
+---
+title: "Depth-based reconstruction method for incomplete functional data"
+date: 2022-09-26
+author: 
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: Universidad de Málaga, Málaga, Spain
+  - name: Raúl Jiménez
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+  - name: Hanlin Shang
+    url: https://researchers.mq.edu.au/en/persons/hanlin-shang
+    orcid: 0000-0003-1769-6430
+    affiliation: Macquarie University, Sidney, Australia
+categories:
+  - Imputation
+  - prediction
+  - nearest neighbors
+  - depth measures
+  - age-specific mortality curves
+  - temperatures
+pub-info:
+  reference: >-
+    <strong>Antonio Elías</strong>, Raúl Jiménez and Hanlin Shang (2022), "Depth-based reconstruction method for incomplete functional data", <em>Computational Statistics</em> , doi: <a href="https://doi.org/10.1007/s00180-022-01282-9"><code>10.1007/s00180-022-01282-9</code></a>
+  links:
+    - name: Final version
+      url: https://www.sciencedirect.com/science/article/pii/S0047259X21001688
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/aefdz/fdaPOIFD
+      icon: fa-brands fa-github
+  doi: 10.1007/s00180-022-01282-9
+haiku:
+  - Data-driven reconstruction of missing curve fragments
+---
+
+## Important links
+
+-   [Article Open Access](https://www.sciencedirect.com/science/article/pii/S0047259X21001688)
+-   [GitHub repository](https://github.com/aefdz/fdaPOIFD)
+-   [R-package CRAN](https://cran.r-project.org/web/packages/fdaPOIFD/index.html)
+
+## Abstract
+
+The problem of estimating missing fragments of curves from a functional sample has been widely considered in the literature. However, most reconstruction methods rely on estimating the covariance matrix or the components of its eigendecomposition, which may be difficult. In particular, the estimation accuracy might be affected by the complexity of the covariance function, the noise of the discrete observations, and the poor availability of complete discrete functional data. We introduce a non-parametric alternative based on depth measures for partially observed functional data. Our simulations point out that the benchmark methods perform better when the data come from one population, curves are smooth, and there is a large proportion of complete data. However, our approach is superior when considering more complex covariance structures, non-smooth curves, and when the proportion of complete functions is scarce. Moreover, even in the most severe case of having all the functions incomplete, our method provides good estimates; meanwhile, the competitors are unable. The methodology is illustrated with two real data sets: the Spanish daily temperatures observed in different weather stations and the age-specific mortality by prefectures in Japan. They highlight the interpretability potential of the depth-based method.
+
+## Important figures
+
+![Figure 6: Temperature Curve Reconstruction for Burgos-Villafría Weather Station in 1943.](fig1.png)
+
+![Figure 7: Age-specific Mortality Reconstruction for Tottori Prefecture in 2015.](fig2.png)
+
+## Citation
+
+``` bibtex
+@Article{Elías2023,
+author={El{\'i}as, Antonio
+and Jim{\'e}nez, Ra{\'u}l
+and Shang, Han Lin},
+title={Depth-based reconstruction method for incomplete functional data},
+journal={Computational Statistics},
+year={2023},
+month={Sep},
+day={01},
+volume={38},
+number={3},
+pages={1507-1535},
+abstract={The problem of estimating missing fragments of curves from a functional sample has been widely considered in the literature. However, most reconstruction methods rely on estimating the covariance matrix or the components of its eigendecomposition, which may be difficult. In particular, the estimation accuracy might be affected by the complexity of the covariance function, the noise of the discrete observations, and the poor availability of complete discrete functional data. We introduce a non-parametric alternative based on depth measures for partially observed functional data. Our simulations point out that the benchmark methods perform better when the data come from one population, curves are smooth, and there is a large proportion of complete data. However, our approach is superior when considering more complex covariance structures, non-smooth curves, and when the proportion of complete functions is scarce. Moreover, even in the most severe case of having all the functions incomplete, our method provides good estimates; meanwhile, the competitors are unable. The methodology is illustrated with two real data sets: the Spanish daily temperatures observed in different weather stations and the age-specific mortality by prefectures in Japan. They highlight the interpretability potential of the depth-based method.},
+issn={1613-9658},
+doi={10.1007/s00180-022-01282-9},
+url={https://doi.org/10.1007/s00180-022-01282-9}
+}
+```

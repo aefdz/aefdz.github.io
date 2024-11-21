@@ -1,0 +1,67 @@
+---
+title: "Depthgram: Visualizing outliers in high-dimensional functional data with application to fMRI data exploration"
+date: 2022-02-23
+author: 
+  - name: Yasser Alemán-Gómez
+    affiliation: University of Lausanne, Lausanne, Switzerland
+  - name: Ana Arribas-Gil
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+  - name: Manuel Desco
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain and Instituto de Investigación Sanitaria Gregorio Marañón (IiSGM), Madrid, Spain.
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: Universidad de Málaga, Málaga, Spain
+  - name: Juan Romo
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+categories:
+  - Functional magnetic resonance imaging
+  - outlier detection
+pub-info:
+  reference: >-
+    Yasser Alemán-Gómez, Ana Arribas-Gil, Manuel Desco, <strong>Antonio Elías</strong>, Juan Romo (2022), "Depthgram: Visualizing outliers in high-dimensional functional data with application to fMRI data exploration", <em>Statistics in Medicine</em> , doi: <a href=" https://doi.org/10.1002/sim.9342"><code>10.1002/sim.9342</code></a>
+  links:
+    - name: Final version
+      url: https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9342
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://cran.r-project.org/web/packages/roahd/index.html
+      icon: fa-brands fa-github
+  doi: 10.1002/sim.9342
+haiku:
+  - Outlying brain activity
+---
+
+## Important links
+
+-   [Open Access](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9342)
+-   [R-package CRAN](https://cran.r-project.org/web/packages/roahd/index.html)
+
+## Abstract
+
+Functional magnetic resonance imaging (fMRI) is a non-invasive technique that facilitates the study of brain activity by measuring changes in blood flow. Brain activity signals can be recorded during the alternate performance of given tasks, that is, task fMRI (tfMRI), or during resting-state, that is, resting-state fMRI (rsfMRI), as a measure of baseline brain activity. This contributes to the understanding of how the human brain is organized in functionally distinct subdivisions. fMRI experiments from high-resolution scans provide hundred of thousands of longitudinal signals for each individual, corresponding to brain activity measurements over each voxel of the brain along the duration of the experiment. In this context, we propose novel visualization techniques for high-dimensional functional data relying on depth-based notions that enable computationally efficient 2-dim representations of fMRI data, which elucidate sample composition, outlier presence, and individual variability. We believe that this previous step is crucial to any inferential approach willing to identify neuroscientific patterns across individuals, tasks, and brain regions. We present the proposed technique via an extensive simulation study, and demonstrate its application on a motor and language tfMRI experiment.
+
+## Important figures
+
+![Figure 6: Summary of 200 simulation runs under Model 1, with p=50000, and different outlyingness values c. Summary Depthgrams are obtained as the density contours of mbd(epi) and 1-epi(mbd) points over the 200 simulated datasets. The colors represent outlier classification (including non-outlying observations](fig1.png)
+
+![Figure 9: Brain activity over time of 100 individuals in 6 of the 192631 voxels for the motor experiment. The signals of individuals 20, 39, 66, and 89 are highlighted. These are some of the individuals identified as potential outliers, except for individual 66 who exhibits the most central pattern (Figure 10). They illustrate different signal shapes and different association patterns across voxels. For instance, individual 20 presents negative association between voxels 48, 80, 31 (top right) and 68, 74, 34 (bottom right) while this association is positive for the other three individuals](fig2.png)
+
+## Citation
+
+``` bibtex
+@article{https://doi.org/10.1002/sim.9342,
+author = {Alemán-Gómez, Yasser and Arribas-Gil, Ana and Desco, Manuel and Elías, Antonio and Romo, Juan},
+title = {Depthgram: Visualizing outliers in high-dimensional functional data with application to fMRI data exploration},
+journal = {Statistics in Medicine},
+volume = {41},
+number = {11},
+pages = {2005-2024},
+keywords = {data visualization, dimensionality reduction, functional depth, multidimensional outliers, FMRI},
+doi = {https://doi.org/10.1002/sim.9342},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/sim.9342},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/sim.9342},
+abstract = {Functional magnetic resonance imaging (fMRI) is a non-invasive technique that facilitates the study of brain activity by measuring changes in blood flow. Brain activity signals can be recorded during the alternate performance of given tasks, that is, task fMRI (tfMRI), or during resting-state, that is, resting-state fMRI (rsfMRI), as a measure of baseline brain activity. This contributes to the understanding of how the human brain is organized in functionally distinct subdivisions. fMRI experiments from high-resolution scans provide hundred of thousands of longitudinal signals for each individual, corresponding to brain activity measurements over each voxel of the brain along the duration of the experiment. In this context, we propose novel visualization techniques for high-dimensional functional data relying on depth-based notions that enable computationally efficient 2-dim representations of fMRI data, which elucidate sample composition, outlier presence, and individual variability. We believe that this previous step is crucial to any inferential approach willing to identify neuroscientific patterns across individuals, tasks, and brain regions. We present the proposed technique via an extensive simulation study, and demonstrate its application on a motor and language tfMRI experiment.},
+year = {2022}
+}
+```

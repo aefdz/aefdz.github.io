@@ -1,0 +1,62 @@
+---
+title: "Clustering and forecasting of day-ahead electricity supply curves using a market-based distance"
+date: 2024-07-01
+author: 
+  - name: Zehang Li
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+  - name: Andrés Alonso
+    url: https://researchers.mq.edu.au/en/persons/hanlin-shang
+    orcid: 0000-0003-1769-6430
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+  - name: Juan Miguel Morales
+    url: https://sites.google.com/site/jnmmgo/
+    orcid: https://orcid.org/0000-0002-9114-686X
+    affiliation: Universidad de Málaga, Málaga, Spain
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: Universidad de Málaga, Málaga, Spain
+categories:
+  - forecasting
+  - clustering
+  - supply curves
+  - energy market
+pub-info:
+  reference: >-
+    Zehang Li, Andrés Alonso, Juan Miguel Morales, <strong>Antonio Elías</strong> (2024), "Clustering and forecasting of day-ahead electricity supply curves using a market-based distance", <em>International Journal of Electrical Power & Energy Systems</em>, doi: <a href="https://doi.org/10.1016/j.ijepes.2024.109977"><code>10.1016/j.ijepes.2024.109977</code></a>
+  links:
+    - name: Final version
+      url: https://www.sciencedirect.com/science/article/pii/S0142061524001984
+      icon: fa-solid fa-scroll
+  doi: 2024.109977
+haiku:
+  - Forecasting and clustering stepwise curves
+---
+
+## Important links
+
+-   [Article Open Access](https://www.sciencedirect.com/science/article/pii/S0142061524001984)
+
+## Abstract
+
+Gathering knowledge of supply curves in electricity markets is critical to both energy producers and regulators. Indeed, power producers strategically plan their generation of electricity considering various scenarios to maximize profit, leveraging the characteristics of these curves. For their part, regulators need to forecast the supply curves to monitor the market’s performance and identify market distortions. However, the prevailing approaches in the technical literature for analyzing, clustering, and predicting these curves are based on structural assumptions that electricity supply curves do not satisfy in practice, namely, boundedness and smoothness. Furthermore, any attempt to satisfactorily cluster the supply curves observed in a market must take into account the market’s specific features.
+
+Against this background, this article introduces a hierarchical clustering method based on a novel weighted-distance that is specially tailored to non-bounded and non-smooth supply curves and embeds information on the price distribution of offers, thus overcoming the drawbacks of conventional clustering techniques. Once the clusters have been obtained, a supervised classification procedure is used to characterize them as a function of relevant market variables. Additionally, the proposed distance is used in a learning procedure by which explanatory information is exploited to forecast the supply curves in a day-ahead electricity market. This procedure combines the idea of nearest neighbors with a machine-learning method. The prediction performance of our proposal is extensively evaluated and compared against two nearest-neighbor benchmarks and existing competing methods. To this end, supply curves from the markets of Spain, Pennsylvania-New Jersey-Maryland (PJM), and West Australia are considered.
+
+## Citation
+
+``` bibtex
+@article{LI2024109977,
+title = {Clustering and forecasting of day-ahead electricity supply curves using a market-based distance},
+journal = {International Journal of Electrical Power & Energy Systems},
+volume = {158},
+pages = {109977},
+year = {2024},
+issn = {0142-0615},
+doi = {https://doi.org/10.1016/j.ijepes.2024.109977},
+url = {https://www.sciencedirect.com/science/article/pii/S0142061524001984},
+author = {Zehang Li and Andrés M. Alonso and Antonio Elías and Juan M. Morales},
+keywords = {Clustering, Forecasting, Supply curve, Electricity market},
+abstract = {Gathering knowledge of supply curves in electricity markets is critical to both energy producers and regulators. Indeed, power producers strategically plan their generation of electricity considering various scenarios to maximize profit, leveraging the characteristics of these curves. For their part, regulators need to forecast the supply curves to monitor the market’s performance and identify market distortions. However, the prevailing approaches in the technical literature for analyzing, clustering, and predicting these curves are based on structural assumptions that electricity supply curves do not satisfy in practice, namely, boundedness and smoothness. Furthermore, any attempt to satisfactorily cluster the supply curves observed in a market must take into account the market’s specific features. Against this background, this article introduces a hierarchical clustering method based on a novel weighted-distance that is specially tailored to non-bounded and non-smooth supply curves and embeds information on the price distribution of offers, thus overcoming the drawbacks of conventional clustering techniques. Once the clusters have been obtained, a supervised classification procedure is used to characterize them as a function of relevant market variables. Additionally, the proposed distance is used in a learning procedure by which explanatory information is exploited to forecast the supply curves in a day-ahead electricity market. This procedure combines the idea of nearest neighbors with a machine-learning method. The prediction performance of our proposal is extensively evaluated and compared against two nearest-neighbor benchmarks and existing competing methods. To this end, supply curves from the markets of Spain, Pennsylvania-New Jersey-Maryland (PJM), and West Australia are considered.}
+}
+```

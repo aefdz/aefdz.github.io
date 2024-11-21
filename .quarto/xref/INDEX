@@ -28,5 +28,35 @@
   },
   "research/articles/JMVA2022/index.qmd": {
     "index.html": "b3522876"
+  },
+  "research/articles/JMVA2022_ELIAS/index.qmd": {
+    "index.html": "3047ace6"
+  },
+  "research/articles/PREPRINT2024_NAGY/index.qmd": {
+    "index.html": "f05ce1e7"
+  },
+  "research/articles/IJEPES2024_LI/index.qmd": {
+    "index.html": "8fafd823"
+  },
+  "research/articles/CS2023_ELIAS/index.qmd": {
+    "index.html": "5c69ccdc"
+  },
+  "research/articles/ADAC2022_ELIAS/index.qmd": {
+    "index.html": "f9729213"
+  },
+  "research/articles/JCGS2023_ELIAS/index.qmd": {
+    "index.html": "0c6041a1"
+  },
+  "research/articles/QE2023_ELIAS/index.qmd": {
+    "index.html": "b6b48db4"
+  },
+  "research/articles/SM2022_YASSER/index.qmd": {
+    "index.html": "234fcde5"
+  },
+  "research/articles/PLOS2022_IÑAKI/index.qmd": {
+    "index.html": "cfe807a5"
+  },
+  "research/preprints/PREPRINT2024_NAGY/index.qmd": {
+    "index.html": "97e38c32"
   }
 }

@@ -1,0 +1,68 @@
+---
+title: "A high dimensional functional time series approach to evolution outlier detection for grouped smart meters"
+date: 2023-07-03
+author: 
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: Universidad de Málaga, Málaga, Spain
+  - name: Juan Miguel Morales
+    url: https://sites.google.com/site/jnmmgo/
+    orcid: https://orcid.org/0000-0002-9114-686X
+    affiliation: Universidad de Málaga, Málaga, Spain
+  - name: Salvador Pineda 
+    orcid: https://orcid.org/0000-0002-1089-0970
+    affiliation: Universidad de Málaga, Málaga, Spain
+categories:
+  - depth measures
+  - outlier detection
+  - Smarmeters
+  - voltage
+  - solar energy
+pub-info:
+  reference: >-
+    <strong>Antonio Elías</strong>, Juan M. Morales, Salvador Pineda (2023), "A high dimensional functional time series approach to evolution outlier detection for grouped smart meters", <em>Quality Engineering</em> , doi: <a href="https://doi.org/10.1080/08982112.2022.2135009"><code>10.1080/08982112.2022.2135009</code></a>
+  links:
+    - name: Final version
+      url: https://www.tandfonline.com/doi/full/10.1080/08982112.2022.2135009
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/aefdz/fdaPOIFD
+      icon: fa-brands fa-github
+  doi: 10.1080/08982112.2022.2135009
+haiku:
+  - Outlier detection with fined-grained long time series
+---
+
+## Important links
+
+-   [Open Access](https://www.tandfonline.com/doi/full/10.1080/08982112.2022.2135009)
+-   [GitHub repository](https://github.com/groupoasys/smartOASYS)
+
+## Abstract
+
+Smart metering infrastructures collect data almost continuously in the form of fine-grained long time series. These massive data series often have common daily patterns that are repeated between similar days or seasons and shared among grouped meters. Within this context, we propose an unsupervised method to highlight individuals with abnormal daily dependency patterns, which we term evolution outliers. To this end, we approach the problem from the standpoint of High Dimensional Functional Time Series and we use the concept of functional depth to exploit the dynamic group structure and isolate individual meters with a different evolution. The performance of the proposal is first evaluated empirically through a simulation exercise under different evolution scenarios. Subsequently, the importance and need for an evolution outlier detection method are shown by using actual smart-metering data corresponding to photo-voltaic energy generation and circuit voltage records. Here, our proposal detects outliers that might go unnoticed by other approaches of the literature that have demonstrated to be effective capturing magnitude and shape abnormalities.
+
+## Important figures
+
+![Figure 4: Time series of FD and time series of scaled FD for two Functional Time Series.](fig1.png)
+
+![Figure 5: Household with outlying voltage circuit.](fig2.png)
+
+## Citation
+
+``` bibtex
+@article{aeliasQE2023,
+author = {A. Elías, J. M. Morales and S. Pineda},
+title = {A high dimensional functional time series approach to evolution outlier detection for grouped smart meters},
+journal = {Quality Engineering},
+volume = {35},
+number = {3},
+pages = {371--387},
+year = {2023},
+publisher = {Taylor \& Francis},
+doi = {10.1080/08982112.2022.2135009},
+URL = {https://doi.org/10.1080/08982112.2022.2135009},
+eprint = {https://doi.org/10.1080/08982112.2022.2135009}}
+
+```
