@@ -1,0 +1,68 @@
+---
+title: "Integrated depths for partially observed functional data"
+date: 2023-04-03
+author: 
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: Universidad de Málaga, Málaga, Spain
+  - name: Raúl Jiménez
+    affiliation: Universidad Carlos III de Madrid, Madrid, Spain
+  - name: Anna M Paganoni
+    affiliation: University of Milano, Milán, Italy
+  - name: Laura M Sangalli
+    url: https://sangalli.faculty.polimi.it/
+    orcid: https://orcid.org/0000-0002-4951-9239
+    affiliation: University of Milano, Milán, Italy
+categories:
+  - depth measures
+  - partially observed
+  - Aneurism
+  - classification
+  - outlier detection
+pub-info:
+  reference: >-
+    <strong>Antonio Elías</strong>, Raúl Jiménez, Anna M Paganoni, Laura M Sangalli (2023), "Integrated depths for partially observed functional data", <em>Journal of Computational & Graphical Statistics</em> , doi: <a href="https://doi.org/10.1080/10618600.2022.2070171"><code>10.1080/10618600.2022.2070171</code></a>
+  links:
+    - name: Final version
+      url: https://www.tandfonline.com/doi/abs/10.1080/10618600.2022.2070171
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/aefdz/fdaPOIFD
+      icon: fa-brands fa-github
+  doi: 10.1080/10618600.2022.2070171
+haiku:
+  - Functional depth for partially observed data
+---
+
+## Important links
+
+-   [GitHub repository](https://github.com/aefdz/fdaPOIFD)
+-   [R-package CRAN](https://cran.r-project.org/web/packages/fdaPOIFD/index.html)
+
+## Abstract
+
+Partially observed functional data are frequently encountered in applications and are the object of an increasing interest by the literature. We here address the problem of measuring the centrality of a datum in a partially observed functional sample. We propose an integrated functional depth for partially observed functional data, dealing with the very challenging case where partial observability can occur systematically on any observation of the functional dataset. In particular, differently from many techniques for partially observed functional data, we do not request that some functional datum is fully observed, nor we require that a common domain exist, where all of the functional data are recorded. Because of this, our proposal can also be used in those frequent situations where reconstructions methods and other techniques for partially observed functional data are inapplicable. By means of simulation studies, we demonstrate the very good performances of the proposed depth on finite samples. Our proposal enables the use of benchmark methods based on depths, originally introduced for fully observed data, in the case of partially observed functional data. This includes the functional boxplot, the outliergram and the depth versus depth classifiers. We illustrate our proposal on two case studies, the first concerning a problem of outlier detection in German electricity supply functions, the second regarding a classification problem with data obtained from medical imaging. Supplementary materials for this article are available online.
+
+## Important figures
+
+![Figure 1: Left: German electricity supply functions. Top left: Daily electricity supply from March 15th, 2010 to March 14th, 2012; the y-axis represents the electricity price and the x-axis the level of the electricity demand. Bottom left: proportion of functional data that are observed for each given level of electricity demand. Right: AneuRisk65. Radius (top) and curvature (middle) of the internal carotid artery of 65 subjects; Upper group (blue in color printing / dark grey in black and white printing), lower group (red / light grey). The bottom panel shows the proportion of observed data, highlighting the presence of a common domain, where all data are observed.](fig1.png)
+
+![Figure 8: AneuRisk65 data. Left panel: Leave-one-out classification error for di↵erent values of the weight on radius and for different values of q, the minimum proportion of observed functional data for which the weight function in the POIFD is non-null. Right panel: DD-plot for the optimal value of the weight on radius and of q*; upper group in blue and Lower group in red.](fig2.png)
+
+## Citation
+
+``` bibtex
+@article{doi:10.1080/10618600.2022.2070171,
+author = {Antonio Elías, Raúl Jiménez, Anna M. Paganoni and Laura M. Sangalli},
+title = {Integrated Depths for Partially Observed Functional Data},
+journal = {Journal of Computational and Graphical Statistics},
+volume = {32},
+number = {2},
+pages = {341--352},
+year = {2023},
+publisher = {ASA Website},
+doi = {10.1080/10618600.2022.2070171},
+URL = {https://doi.org/10.1080/10618600.2022.2070171},
+eprint = {https://doi.org/10.1080/10618600.2022.2070171}}
+```

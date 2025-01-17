@@ -1,0 +1,62 @@
+---
+title: "Statistical properties of partially observed integrated functional depths"
+date: 2024-11-20
+author: 
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: Universidad de Málaga, Málaga, Spain
+  - name: Stanislav Nagy
+    affiliation: Charles University, Prague, Czech Republic
+categories:
+  - functional depth measures
+  - partially observed
+pub-info:
+  reference: >-
+    <strong>Antonio Elías</strong>, Stanislav Nagy (2024), "Statistical properties of partially observed integrated functional depths", <em>TEST</em> , doi: <a href="https://doi.org/10.1007/s11749-024-00954-6"><code>https://doi.org/10.1007/s11749-024-00954-6</code></a>
+  links:
+    - name: Final version
+      url: https://link.springer.com/article/10.1007/s11749-024-00954-6
+      icon: fa-solid fa-scroll
+    - name: Code
+      url: https://github.com/aefdz/fdaPOIFD
+      icon: fa-brands fa-github
+  doi: 10.1007/s11749-024-00954-6
+haiku:
+  - Bias and consistency
+---
+
+## Important links
+
+-   [Article Open Access](https://link.springer.com/article/10.1007/s11749-024-00954-6)
+-   [GitHub repository](https://github.com/aefdz/fdaPOIFD)
+-   [R-package CRAN](https://cran.r-project.org/web/packages/fdaPOIFD/index.html)
+
+## Abstract
+
+Integrated functional depths (IFDs) present a versatile toolbox of methods introducing notions of ordering, quantiles, and rankings into a functional data analysis context. They provide fundamental tools for nonparametric inference of infinite-dimensional data. Recently, the literature has extended IFDs to address the challenges posed by partial observability of functional data, commonly encountered in practice. That resulted in the development of partially observed integrated functional depths (POIFDs). POIFDs have demonstrated good empirical results in simulated experiments and real problems. However, there are still no theoretical results in line with the state of the art of IFDs. This article addresses this gap by providing theoretical support for POIFDs, including (i) uniform consistency of their sample versions, (ii) weak continuity with respect to the underlying probability measure, and (iii) uniform consistency for discretely observed functional data. Finally, we present a sensitivity analysis that evaluates how our theoretical results are affected by violations of the main assumptions.
+
+
+![Figure 1: Functional Data Analysis and a simple scenenario of Partially Observed Data Analysis. Only with a standardized weight the green curve is the deepest in the partially observed data setup.](fig1.png)
+
+![Figure 4: Estimation bias when sample size growths under violations of the MCAR assumption. Not all the types of violations bias the estimation of the depths.](fig2.png)
+
+## Citation
+
+``` bibtex
+@Article{Elias2024,
+author={El{\'i}as, Antonio
+and Nagy, Stanislav},
+title={Statistical properties of partially observed integrated functional depths},
+journal={TEST},
+year={2024},
+month={Nov},
+day={20},
+abstract={Integrated functional depths (IFDs) present a versatile toolbox of methods introducing notions of ordering, quantiles, and rankings into a functional data analysis context. They provide fundamental tools for nonparametric inference of infinite-dimensional data.  Recently, the literature has extended IFDs to address the challenges posed by partial observability of functional data, commonly encountered in practice. That resulted in the development of partially observed integrated functional depths (POIFDs). POIFDs have demonstrated good empirical results in simulated experiments and real problems. However, there are still no theoretical results in line with the state of the art of IFDs. This article addresses this gap by providing theoretical support for POIFDs, including (i) uniform consistency of their sample versions, (ii) weak continuity with respect to the underlying probability measure, and (iii) uniform consistency for discretely observed functional data. Finally, we present a sensitivity analysis that evaluates how our theoretical results are affected by violations of the main assumptions.},
+issn={1863-8260},
+doi={10.1007/s11749-024-00954-6},
+url={https://doi.org/10.1007/s11749-024-00954-6}
+}
+```
+
+
