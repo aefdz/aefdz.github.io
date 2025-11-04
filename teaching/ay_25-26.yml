@@ -1,0 +1,39 @@
+- title: Básico de R Aplicado a la Docencia en Asignaturas de Estadística
+  description: "Formación Personal Investigador"
+  university: Facultad de Ciencias, Universidad de Málaga
+  number: 
+  url: "https://aefdz.github.io/curso_intro_r_para_estadistica/intro.html"
+  logo: ""
+  semester: 
+  - name: Primer Cuatrimestre
+    url: 
+    
+- title: Inferencia Estadística
+  description: "Grado en Matemáticas"
+  university: Facultad de Ciencias, Universidad de Málaga
+  number: 
+  url: 
+  logo: 
+  semester: 
+  - name: Segundo Cuatrimestre
+    url: 
+
+- title: Métodos Estadísticos Avanzados para la Criminología
+  description: "Grado en Criminología"
+  university: Universidad de Málaga
+  number: 
+  url: 
+  logo: 
+  semester: 
+  - name: Primer Cuatrimestre
+    url: 
+
+- title: Trabajo Final de Grado
+  description: ""
+  university: Universidad de Málaga
+  number: 
+  url: 
+  logo: 
+  semester: 
+  - name: Segundo Cuatrimestre
+    url: 

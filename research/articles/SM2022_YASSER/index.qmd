@@ -19,7 +19,7 @@ categories:
   - outlier detection
 pub-info:
   reference: >-
-    Yasser Alemán-Gómez, Ana Arribas-Gil, Manuel Desco, <strong>Antonio Elías</strong>, Juan Romo (2022), "Depthgram: Visualizing outliers in high-dimensional functional data with application to fMRI data exploration", <em>Statistics in Medicine</em> , doi: <a href=" https://doi.org/10.1002/sim.9342"><code>10.1002/sim.9342</code></a>
+    Yasser Alemán-Gómez, Ana Arribas-Gil, Manuel Desco, <strong>Antonio Elías</strong>, Juan Romo (2022), "Depthgram: Visualizing outliers in high-dimensional functional data with application to fMRI data exploration", <em>Statistics in Medicine</em> , doi: <a href="https://doi.org/10.1002/sim.9342"><code>https://doi.org/10.1002/sim.9342</code></a>
   links:
     - name: Final version
       url: https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9342
