@@ -1,0 +1,60 @@
+---
+title: "Which Depth to Use to Construct Functional Boxplots?"
+date: 2026-11-01
+author:
+  - name: Stanislav Nagy
+    affiliation: Charles University, Prague, Czech Republic
+  - name: Tomáš Mrkvička
+    affiliation: University of South Bohemia, České Budějovice, Czech Republic
+  - name: Antonio Elías
+    url: https://aefdz.github.io/
+    orcid: 0000-0002-3078-549X
+    affiliation: University of Málaga, Málaga, Spain
+categories:
+  - functional depth measures
+  - functional boxplots
+  - outlier detection
+  - visualization
+pub-info:
+  reference: >-
+    Stanislav Nagy, Tomáš Mrkvička, <strong>Antonio Elías</strong> (2026), "Which Depth to Use to Construct Functional Boxplots?", <em>Statistical Science</em>, 41(4), doi: <a href="https://doi.org/10.1214/25-STS1005"><code>https://doi.org/10.1214/25-STS1005</code></a>
+  links:
+    - name: Final version
+      url: https://projecteuclid.org/journals/statistical-science/volume-41/issue-4/Which-Depth-to-Use-to-Construct-Functional-Boxplots/10.1214/25-STS1005.full
+      icon: fa-solid fa-scroll
+    - name: Preprint
+      url: https://arxiv.org/abs/2409.18603
+      icon: fa-solid fa-file-lines
+  doi: 10.1214/25-STS1005
+haiku:
+  - Which depth to use?
+  - Local extremes shape the box
+  - Curves find their place
+---
+
+## Important links
+
+-   [Final article](https://projecteuclid.org/journals/statistical-science/volume-41/issue-4/Which-Depth-to-Use-to-Construct-Functional-Boxplots/10.1214/25-STS1005.full)
+-   [Preprint on arXiv](https://arxiv.org/abs/2409.18603)
+
+## Abstract
+
+Functional boxplots summarize the center and spread of a sample of curves and flag observations that extend beyond a central envelope. This article examines which functional depth yields a coherent boxplot. It shows that boxplots based on integrated depths, including the popular modified band depth, may fail to flag curves that are extreme according to the same depth and can produce central regions that expand to the whole function space as the sample grows. In contrast, depths of infimal type satisfy band convexity, a key property for a valid boxplot construction. The paper establishes theoretical results for these properties and supports them with motivating examples and a simulation study.
+
+## Main message
+
+The choice of depth is essential to the interpretation of a functional boxplot. Integrated depths summarize how central a curve is across the whole domain, while the boxplot flags a curve when it leaves the whisker band at any point. This mismatch can cause outlier masking and an inflated central region. Infimal depths align the ranking with this local, band-based outlier rule and provide the band-convexity property required for a well-behaved functional boxplot.
+
+## Citation
+
+```bibtex
+@article{nagy2026depthfunctionalboxplots,
+  author  = {Nagy, Stanislav and Mrkvička, Tomáš and Elías, Antonio},
+  title   = {Which Depth to Use to Construct Functional Boxplots?},
+  journal = {Statistical Science},
+  year    = {2026},
+  volume  = {41},
+  number  = {4},
+  doi     = {10.1214/25-STS1005}
+}
+```

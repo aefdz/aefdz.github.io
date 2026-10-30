@@ -1,7 +1,12 @@
 [
   {
+    "listing": "/teaching/index.html",
+    "items": []
+  },
+  {
     "listing": "/research/index.html",
     "items": [
+      "/research/articles/SC2026_NAGY/index.html",
       "/research/articles/TEST2024_ELIAS/index.html",
       "/research/articles/PREPRINT2024_NAGY/index.html",
       "/research/articles/IJEPES2024_LI/index.html",
@@ -13,9 +18,5 @@
       "/research/articles/PLOS2022_IÑAKI/index.html",
       "/research/articles/SM2022_YASSER/index.html"
     ]
-  },
-  {
-    "listing": "/teaching/index.html",
-    "items": []
   }
 ]
